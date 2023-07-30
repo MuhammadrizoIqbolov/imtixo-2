@@ -1,0 +1,85 @@
+.about_container__nav{
+    display: flex;
+}
+.about_title{
+    width: 445px;
+    color: #FBFCFE;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+    margin-top: 100px;
+}
+.about_text{
+width: 445px;
+color: #FBFCFE;
+font-size: 15px;
+font-weight: 400;
+line-height: 28px; /* 186.667% */
+padding-top: 24px;
+}
+.about_btn{
+color: #FBFCFE;
+text-align: center;
+font-size: 15px;
+font-weight: 700;
+letter-spacing: -0.115px;
+border-radius: 24px;
+border: 1px solid #FBFCFE;
+width: 130px;
+padding: 16px 30px;
+transition: all 0.4s ease;
+&:hover{
+    background-color: #FFF;
+    color:#1B262F;
+}
+margin-top: 34px;
+margin-bottom: 100px;
+}
+.about_content__block{
+    margin-top: 75px;
+}
+.about_logoo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 192px;
+}
+.about_logo_link{
+    padding-left: 70px;
+}
+@media screen and (max-width:1118px) {
+    .hero_content__nav,
+    .about_container__nav{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:1118px) {
+    .about_content-block{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:700px) {
+   .about_logo_link,
+    .about_logoo,
+    .about_link__logo-btn{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+@media screen and (max-width:660px) {
+    .about_logo_link{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1000px) {
+ .hero_img{
+max-width: 130px;
+ }
+}

@@ -1,0 +1,69 @@
+.hero_content__nav{
+    display: flex;
+}
+.hero_title{
+width: 546px;
+height: 243px;
+flex-shrink: 0;
+color: #36536B;
+font-size: 72px;
+font-weight: 400;
+line-height: 72px; /* 100% */
+letter-spacing: -0.554px;
+}
+.hero_text_link{
+color: #6C8294;
+font-size: 15px;
+font-weight: 400;
+margin-top: 16px;
+margin-left: 22px;
+}
+.hero_text_btn{
+color: #6C8294;
+font-size: 15px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+.hero_img{
+    margin-left: 208px;
+    margin-top: 85px;
+}
+.hero_content_block{
+    margin-top: 150px;
+}
+.radius{
+    width: 445px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+  border-radius: 24px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+
+}  
+.salom_input{
+  margin-top: 16px;
+  margin-left: 27px;
+  border: none;
+}
+.maintel__btn{
+  margin-left: auto;
+  width: 173px;
+height: 48px;
+flex-shrink: 0;
+  border-radius: 24px;
+  border: 2px solid red;
+background: #BA4270;
+transition: all 0.4s ease;
+&:hover{
+  background-color: #3b3ff7;
+  color:#FFF;
+}
+
+}
+.maintel__btn2{
+  color:#FFF;
+
+}
+
